@@ -1,0 +1,113 @@
+body {
+	background-image: url("zimg.jpg");
+	background-size: cover;
+	font-family: 'Roboto', sans-serif; /* Changed font for a modern look */
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	background: rgba(0, 0, 0, 0.6); /* Darker background for better contrast */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 450px; /* Increased width */
+	height: 650px; /* Increased height */
+	border-radius: 25px; /* More rounded corners */
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7); /* More pronounced shadow */
+	padding: 40px; /* Increased padding */
+}
+
+.textview {
+	display: inline-block;
+	margin: 5px; /* Increased margin */
+	width: 400px; /* Increased width */
+	height: 60px; /* Increased height */
+	font-size: 36px; /* Increased font size */
+	font-weight: bold;
+	background-color: rgba(255, 255, 255, 0.9); /* Slightly brighter background */
+	border: none;
+	border-radius: 15px; /* More rounded corners */
+	padding: 20px; /* Increased padding */
+	text-align: right;
+	color: #333; /* Darker text color for better readability */
+}
+
+.button {
+	cursor: pointer;
+	display: inline-block;
+	margin: 5px; /* Increased margin */
+	width: 90px; /* Increased width */
+	height: 90px; /* Increased height */
+	font-size: 36px; /* Increased font size */
+	font-weight: bold;
+	border-radius: 12px; /* Slightly more rounded corners */
+	outline: none;
+	background-color: #EAEAEA; /* Lighter background */
+	border: 2px solid #BBBBBB; /* Slightly thicker border */
+}
+
+.button:hover {
+	background-color: #FFAB76; /* Softer hover color */
+	box-shadow: 0px 0px 5px #FFAB76, inset 0px -5px 3px #FF8C00;
+	border: 2px solid #FFD700; /* Gold border on hover */
+}
+
+.button:active {
+	background-color: #C6C6C6;
+	box-shadow: 0 4px #999;
+	transform: translateY(6px); /* Increased movement on active */
+}
+
+.equalButton {
+	cursor: pointer;
+	display: inline-block;
+	margin: 5px; /* Increased margin */
+	width: 90px; /* Increased width */
+	height: 180px; /* Increased height */
+	font-size: 36px; /* Increased font size */
+	font-weight: bold;
+	border-radius: 12px; /* Slightly more rounded corners */
+	outline: none;
+	background-color: #4CAF50;
+	color: #FFFFFF;
+}
+
+.equalButton:hover {
+	background-color: #45a049;
+	box-shadow: 0px 0px 5px #45a049, inset 0px -5px 3px #388E3C;
+}
+
+.equalButton:active {
+	background-color: #388E3C;
+	box-shadow: 0 4px #999;
+	transform: translateY(6px);
+}
+
+.allclearButton {
+	cursor: pointer;
+	display: inline-block;
+	margin: 5px; /* Increased margin */
+	width: 90px; /* Increased width */
+	height: 90px; /* Increased height */
+	font-size: 36px; /* Increased font size */
+	font-weight: bold;
+	border-radius: 12px; /* Slightly more rounded corners */
+	outline: none;
+	background-color: #D32F2F;
+	color: #FFFFFF;
+	border: 2px solid #C62828; /* Darker border */
+	box-shadow: 0px 0px 5px #C62828, inset 0px -5px 3px #B71C1C;
+}
+
+.allclearButton:hover {
+	background-color: #C62828;
+	box-shadow: 0px 0px 5px #C62828, inset 0px -5px 3px #B71C1C;
+}
+
+.allclearButton:active {
+	background-color: #B71C1C;
+	box-shadow: 0 4px #999;
+	transform: translateY(6px);
+}
